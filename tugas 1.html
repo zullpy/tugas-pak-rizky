@@ -5,24 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            font-family: monospace;
+        }
+        header{
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60px;
+        }
         h1{
             text-align: center;
             color: green;
+            font-size: 30px;
         }
 
         ol{
             color: red;
+            margin-left: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
 
         h2{
             text-align: center;
             color: blue;
+            background-color: yellow;
+            padding: 15px;
         }
 
         p{
             color: yellow;
             text-align: center;
             font-size: 30px;
+            background-color: blue;
+            padding: 10px;
         }
 
         li::marker{
@@ -31,7 +51,9 @@
     </style>
 </head>
 <body>
-    <h1>SMK SUKAPURA</h1>
+    <header>
+        <h1>SMK SUKAPURA</h1>
+    </header>
     <ol>
         <li>home</li>
         <li>informasi</li>
